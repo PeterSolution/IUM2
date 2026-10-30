@@ -1,0 +1,7 @@
+Porownanie modeli na zbiorze wine (5-fold CV)
+
+Model                   Srednia acc   Odch. std   Czas [s]  
+scikit-learn (LogReg)   0.9887        0.0138      0.12      
+PyTorch (siec FC)       0.9106        0.0440      1.03      
+
+Wniosek: Lepszy okazal sie scikit-learn (wyzsza srednia accuracy).
